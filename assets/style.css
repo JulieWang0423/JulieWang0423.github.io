@@ -139,6 +139,27 @@ body {
   font-weight: 700;
 }
 
+.content .timeline {
+  list-style: none;
+  padding-left: 0;
+}
+
+.content .timeline li {
+  display: grid;
+  grid-template-columns: 5em 1fr;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.content .timeline li:last-child {
+  margin-bottom: 0;
+}
+
+.timeline time {
+  font-weight: 700;
+  color: #2a2a2a;
+}
+
 @media (max-width: 640px) {
   .page {
     grid-template-columns: 1fr;
